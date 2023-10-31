@@ -1,0 +1,17 @@
+body{
+    background-color: #1e87bc;
+}
+
+p {font-size: 50px;
+    color: #ffffff;
+}
+
+li {color: #b61515;}
+
+img {width: 200px;
+    height: 100px;}
+
+.green {
+    color: green;
+    font-style: italic;
+}

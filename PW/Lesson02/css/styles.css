@@ -1,0 +1,24 @@
+.math_formula{
+    text-align: center;
+    font-family: 'Lato', sans-serif;
+}
+.title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.first_formula{
+    text-align: center;
+    background-color: pink;
+    font-family: 'Lato', sans-serif;
+}
+.second_title{
+    font-size: 20px;
+    font-weight: 600;
+    font-family: 'Lato', sans-serif;
+}
+.second_formula{
+    text-align: center;
+    background-color: pink;
+    font-family: 'Lato', sans-serif;
+}
