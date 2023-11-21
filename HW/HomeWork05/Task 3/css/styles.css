@@ -1,0 +1,78 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+@media screen and (min-width: 600px){
+.main-container {
+    background-color: #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    margin: 20px auto;
+    max-width: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 20px;
+}
+}
+@media screen and (min-width: 900px) {
+.form-block {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+}
+}
+.left-block {
+    grid-column: 1 / 2;
+}
+
+.right-block {
+    grid-column: 2 / 3;
+}
+
+.subscribe-block {
+    grid-column: span 2;
+}
+
+.accept-button {
+    text-align: center;
+    grid-column: span 2;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+input, select {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-top: 3px;
+    margin-bottom: 10px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.checkbox-label {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-label input {
+    margin-right: 5px;
+}

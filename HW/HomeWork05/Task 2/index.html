@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Styling Library Demo</title>
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+
+<div class="main-container">
+
+    <div class="input-container">
+        <label for="input-untouched">Input</label>
+        <input type="text" id="input-untouched" class="input-untouched" placeholder="Enter some text">
+    </div>
+
+    <div class="input-container">
+        <label for="input-valid"></label>
+        <input type="text" id="input-valid" class="input-valid" value="Valid text">
+    </div>
+
+    <div class="input-container">
+        <label for="input-invalid"></label>
+        <input type="text" id="input-invalid" class="input-invalid" value="Invalid text">
+    </div>
+    <p>Check Boxes</p>
+    <div class="input-container checkbox">
+        <label for="subscribe">Subscribe</label>
+        <input type="checkbox" id="subscribe" checked>
+        <span class="slider"></span>
+    </div>
+    <p>Radio Button</p>
+    <div class="input-container radio">
+        <input type="radio" id="male" name="gender" checked>
+        <label for="male">Male</label>
+    </div>
+    <div class="input-container radio">
+        <input type="radio" id="female" name="gender">
+        <label for="female">Female</label>
+    </div>
+    <p>Button</p>
+    <button class="button button-green">Active</button>
+    <button class="button button-green button-hover">Hover</button>
+
+    <button class="button button-red">Danger</button>
+    <button class="button button-red button-hover">Hover</button>
+
+    <button class="button button-disabled" disabled>Disabled</button>
+
+    <button class="button button-circle button-green">+</button>
+    <button class="button button-circle button-red">-</button>
+
+    <div class="input-container">
+        <label for="textarea">Textarea</label>
+        <textarea id="textarea" class="textarea" placeholder="Enter some text"></textarea>
+    </div>
+
+</div>
+
+</body>
+</html>
